@@ -1,9 +1,10 @@
 # Личный проект «Кэт энерджи»
 
-* Студент: [Valerii Dudko](https://up.htmlacademy.ru/adaptive/29/user/1799237).
-* Наставник: `Неизвестно`.
+* Студент:  [Valerii Dudko](https://up.htmlacademy.ru/adaptive/29/user/1799237).
+* Наставник:  [Наталья Зотова](https://htmlacademy.ru/profile/id1079951).
 
 ---
+
 
 **Обратите внимание, что папка с вашими исходными файлами для работы над проектом — `source/`.**
 
