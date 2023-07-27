@@ -4,9 +4,59 @@
     <meta charset="utf-8">
     <title>HTML Academy: Кэт энерджи</title>
   </head>
-  <body>
+  <body class="page__body">
+    <header class="main-header">
+      <a class="main-header__logo">
+        <img class="main-header__logo-image" src="img/Mobile/logo-mobile.svg" width="33" height="38" alt="Кэт Энерджи">
+        <img class="main-header__logo-image" src="img/Mobile/logo-mobile-2.svg" width="101" height="18" alt="Кэт Энерджи">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidder">Открыть меню</span>
+        </button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item site-list__item--active">
+              <a>
+                Главная
+              </a>
+            </li>
+            <li class="site-list__item">
+              <a href="catalog.html">
+                Каталок продукции
+              </a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">
+                Подбор программы
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="main-container">
+      <section class="promo">
+        <div class="promo__wrapper">
+          <header class="promo__header">
+            <h2 class="visually-hidder">
+              Промо
+            </h2>
+            <p class="promo__slogan">
+              Функциональное<br>
+              питание для котов
+            </p>
+            <p class="promo__intro">
+              Занялся собой? Займись котом
+            </p>
+          </header>
+          <button class="promo-button" type="button">
+            <span class="promo-button-text">Подобрать программу</span>
+          </button>
+        </div>
+      </section>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
+    </main>
 
   </body>
 </html>
